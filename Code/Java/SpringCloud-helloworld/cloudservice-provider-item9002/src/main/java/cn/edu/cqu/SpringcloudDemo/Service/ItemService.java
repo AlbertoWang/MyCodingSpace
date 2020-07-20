@@ -1,0 +1,1 @@
+package cn.edu.cqu.SpringcloudDemo.Service;import cn.edu.cqu.SpringcloudDemo.Model.MyJson;import org.springframework.stereotype.Service;/** * @ author     ：alberto * @ date       ：Created in 2020/4/28 10:04 * @ description：商品服务接口 */@Servicepublic interface ItemService {    public MyJson getItemById(int itemId, String serverPort);}

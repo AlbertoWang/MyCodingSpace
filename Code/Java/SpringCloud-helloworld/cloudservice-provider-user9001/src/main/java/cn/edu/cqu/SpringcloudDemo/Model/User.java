@@ -1,0 +1,1 @@
+package cn.edu.cqu.SpringcloudDemo.Model;import lombok.*;/** * @ author     ：alberto * @ date       ：Created in 2020/4/27 15:46 * @ description：实体类 */// lombok自动代码补全相关注解@Data@AllArgsConstructor@NoArgsConstructor@Setter@Getterpublic class User {    private int userId;    private String userName;}

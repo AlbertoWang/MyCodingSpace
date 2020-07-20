@@ -1,0 +1,1 @@
+server:  port: 90spring:  application:    name: cloudservice-consumer-demo90  cloud:    nacos:      discovery: # Nacos服务注册地址        server-addr: localhost:8848service-url:  nacos-user-service: http://cloudservice-provider-user9001/user/getUser?userId=  nacos-item-service: http://cloudservice-provider-item9002/item/getItem/

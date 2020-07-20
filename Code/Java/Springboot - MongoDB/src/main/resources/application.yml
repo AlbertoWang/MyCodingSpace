@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: sampler
+      password: 'qwe123!@#'
+      authentication-database: sample_record
+      database: sample_record
+  http:
+    encoding:
+      force: true
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8

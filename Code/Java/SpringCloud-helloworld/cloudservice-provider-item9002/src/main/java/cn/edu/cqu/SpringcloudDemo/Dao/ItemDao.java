@@ -1,0 +1,1 @@
+package cn.edu.cqu.SpringcloudDemo.Dao;import cn.edu.cqu.SpringcloudDemo.Model.Item;/** * @ author     ：alberto * @ date       ：Created in 2020/4/28 10:07 * @ description：商品Dao接口 */public class ItemDao {    public Item getItem(int itemId) {        return new Item(itemId, "我是商品名");    }}
