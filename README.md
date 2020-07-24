@@ -9,6 +9,7 @@
 #### 数据库 - Database
   * [MongoDB 的罪与罚](https://github.com/AlbertoWang/MyCodingSpace/blob/master/Markdown/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9B%B8%E5%85%B3/MongoDB%20%E7%9A%84%E7%BD%AA%E4%B8%8E%E7%BD%9A.md) - MongoDB quick start
 #### 杂项 - Fragmentary things
+  * [macOS 神坑](https://github.com/AlbertoWang/MyCodingSpace/blob/master/Markdown/%E6%9D%82%E8%B4%A7/macOS%20%E7%A5%9E%E5%9D%91.md) - Trap of macOS 
   * [OpenMP与Cython以及编译回顾](https://github.com/AlbertoWang/MyMarkdownAndBooks/blob/master/Markdown/%E6%9D%82%E8%B4%A7/OpenMP%E4%B8%8ECython%E4%BB%A5%E5%8F%8A%E7%BC%96%E8%AF%91%E5%9B%9E%E9%A1%BE.md) - OpenMP, Cython and environment config
 ### Code
 #### Java
