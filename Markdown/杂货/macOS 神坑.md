@@ -8,6 +8,22 @@ cd build
 cmake ..
 ```
 
+CMakeLists.txt内容
+```txt
+cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+
+project(pcd_write)
+
+find_package(PCL 1.9 REQUIRED)
+
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
+add_executable (pcd_write pcd_write.cpp)
+target_link_libraries (pcd_write ${PCL_LIBRARIES})
+```
+
 报错
 ```
 -- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
@@ -20,7 +36,7 @@ Call Stack (most recent call first):
 ```
 
 * 原因：glew 相关外部库找不到
-* 解决（*非靠谱方式*）：如果没有使用这部分代码带话，可以在 PCL 的 CMake 配置文件 ```/usr/local/Cellar/pcl/1.9.1_9/share/pcl-1.9/PCLConfig.cmake``` 中去掉这部分外部库的 find_package 部分，将 ```PCLConfig.cmake``` 中带有以下部分的代码注释掉
+* 解决（*非靠谱方式*）：如果没有使用这部分代码的话，可以在 PCL 的 CMake 配置文件 ```/usr/local/Cellar/pcl/1.9.1_9/share/pcl-1.9/PCLConfig.cmake``` 中去掉这部分外部库的 find_package 部分，将 ```PCLConfig.cmake``` 中带有以下部分的代码注释掉
 
 ```
 # macro(find_glew)
