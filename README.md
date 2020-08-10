@@ -4,6 +4,7 @@
 #### Java
   * [Nacos 憨批状况记录](https://github.com/AlbertoWang/MyMarkdownRepository/blob/master/Markdown/Java%E7%9B%B8%E5%85%B3/Nacos%20%E6%86%A8%E6%89%B9%E7%8A%B6%E5%86%B5%E8%AE%B0%E5%BD%95.md) - Nacos noob problems manual
   * [SpringCloud 历险记](https://github.com/AlbertoWang/MyMarkdownRepository/blob/master/Markdown/Java相关/SpringCloud%20历险记.md) - SpringCloud strange problems manual
+  * [脑抽的基本语法](https://github.com/AlbertoWang/MyCodingSpace/blob/master/Markdown/Java%E7%9B%B8%E5%85%B3/%E8%84%91%E6%8A%BD%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md) - Introduction of Java
 #### Python
   * [Django 初体验](https://github.com/AlbertoWang/MyCodingSpace/blob/master/Markdown/Python%E7%9B%B8%E5%85%B3/Django%20%E5%88%9D%E4%BD%93%E9%AA%8C.md) - Django quick start
 #### 数据库 - Database
