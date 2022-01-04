@@ -1,4 +1,5 @@
 # MyCodingSpace
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlbertoWang)](https://github.com/AlbertoWang/MyCodingSpace)
 ## 目录 - Content
 ### Markdown
 #### Java
