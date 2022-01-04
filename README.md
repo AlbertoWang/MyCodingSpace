@@ -1,6 +1,12 @@
 # MyCodingSpace
-![AlbertoWang's GitHub stats](https://github-readme-stats.vercel.app/api?username=AlbertoWang&show_icons=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlbertoWang)](https://github.com/AlbertoWang/MyCodingSpace)
+<a href="https://github.com/AlbertoWang">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=AlbertoWang&theme=tokyonight&show_icons=true" />
+</a>
+
+<a href="https://github.com/AlbertoWang">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlbertoWang&theme=tokyonight&layout=compact" />
+</a>
+
 ## 目录 - Content
 ### Markdown
 #### Java
